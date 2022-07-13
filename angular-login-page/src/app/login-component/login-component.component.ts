@@ -14,6 +14,7 @@ import { RestService } from '../rest.service';
 export class LoginComponentComponent implements OnInit {
   constructor(private rest:RestService, private router:AppRoutingModule){ 
   }
+  // Authentication
   @Output() IsAutheticate = new EventEmitter<boolean>();
   ngOnInit(): void {
   }
