@@ -8,7 +8,6 @@ import { ProfileComponentComponent } from './profile-component/profile-component
 import { IndexComponentComponent } from './index-component/index-component.component';
 import { RegisterComponentComponent } from './register-component/register-component.component';
 import { HttpClientModule } from '@angular/common/http';
-import { PostToRestComponent } from './post-to-rest/post-to-rest.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CookieService } from 'ngx-cookie-service';
 
@@ -20,7 +19,6 @@ import { CookieService } from 'ngx-cookie-service';
     ProfileComponentComponent,
     IndexComponentComponent,
     RegisterComponentComponent,
-    PostToRestComponent
   ],
   imports: [
     BrowserModule,

@@ -11,8 +11,12 @@ import { RestService } from './rest.service';
 })
 export class AppComponent {
   title = 'angular-login-page';
+  Is_Authenticated:boolean = false
   constructor(){
   }
   ngOnInit(): void{
+  }
+  Verification(e:any){
+    this.Is_Authenticated = e
   }
 }
